@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #D2E0FB;
+            color: #333;
+            font-family: 'Roboto', Arial, sans-serif;
+            background-size: 200% 200%;
+        }
+
+        .navbar {
+            background-color: #FEF9D9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .navbar-brand, .navbar-links a {
+            color: #8EACCD;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar-links a:hover {
+            color: #DEE5D4;
+        }
+
+        .container {
+            text-align: center;
+            background: #DEE5D4;
+            padding: 30px;
+            border-radius: 20px;
+            margin: 60px auto;
+            max-width: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro-section, .update-section {
+            margin: 20px auto;
+            max-width: 80%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro-section h2, .update-section h2 {
+            font-family: 'Playfair Display', serif;
+            color: #8EACCD;
+        }
+
+        .intro-section p, .update-section p {
+            color: #555;
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .lead {
+            font-size: 1.5rem;
+            color: #555;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">About Me</a>
+        <div class="navbar-links">
+            <a href="places.html">Dream Places</a>
+            <a href="bucketlist.html">Bucket List</a>
+            <a href="hobbies.html">Hobbies</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <h1>Third's Website</h1>
+    </div>
+
+    <div class="intro-section">
+        <h2>About Me</h2>
+        <p>Hello! My name is Third, and I'm passionate about exploring the world, achieving personal goals, and discovering new hobbies. This website is a little corner of the internet where I share my aspirations, dreams, and things that bring joy to my life. Feel free to explore and get to know more about me!</p>
+    </div>
+
+    <div class="update-section">
+        <h2>Latest Updates</h2>
+        <p>- I recently added a section about my dream travel destinations—check it out on the "Dream Places" page!</p>
+        <p>- Stay tuned for my curated list of hobbies and creative pursuits that keep me inspired.</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
