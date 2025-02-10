@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #D2E0FB;
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background: #FEF9D9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: #8EACCD;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .navbar a:hover {
+            color: #DEE5D4;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .hobby-card {
+            background: #DEE5D4;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .hobby-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .description {
+            padding: 10px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h3 {
+            color: #8EACCD;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        p {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">About Me</a>
+        <div>
+            <a href="places.html">Dream Places</a>
+            <a href="bucketlist.html">Bucket List</a>
+        </div>
+    </div>
+
+    <h1>My Hobbies</h1>
+    <div class="grid">
+        <div class="hobby-card">
+            <img src="games.jpg" alt="Playing Online Games">
+            <div class="description">
+                <h3>Playing Online Games</h3>
+                <p>I enjoy competing and collaborating in online games. It’s a fun way to connect with friends and unwind.</p>
+            </div>
+        </div>
+        <div class="hobby-card">
+            <img src="movies.jpg" alt="Watching Movies">
+            <div class="description">
+                <h3>Watching Movies</h3>
+                <p>Watching movies is my go-to activity for relaxing and exploring different stories and genres.</p>
+            </div>
+        </div>
+        <div class="hobby-card">
+            <img src="apps.webp" alt="Browsing Social Media">
+            <div class="description">
+                <h3>Browsing Social Media</h3>
+                <p>I enjoy staying updated and connecting with others through social media platforms.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
